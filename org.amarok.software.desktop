@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Software Center
+Name[pt]=Loja de Aplicativos
+GenericName=Software Center
+GenericName[pt]=Central de Aplicativos
+Comment=Add, remove, update applications
+Comment[pt]=Instale, desinstale e atualize aplicativos
+Exec=amarok-software
+Icon=amarok-software
+Terminal=false
+Type=Application
+Categories=GTK;System;PackageManager;
+StartupNotify=true
+Keywords=install;uninstall;package;application;update;upgrade;software;store;
+Keywords[pt]=instalar;desinstalar;pacote;aplicativo;atualizar;software;loja;

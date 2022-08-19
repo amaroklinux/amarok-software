@@ -1,0 +1,31 @@
+Source: amarok-software
+Section: admin
+Priority: optional
+Maintainer: Amarok Linux <packages@amaroklinux.org>
+Build-Depends: debhelper (>= 10), dh-python, python3-all, python3-setuptools, gettext
+Standards-Version: 4.5.0
+Homepage: https://amaroklinux.org
+
+Package: amarok-software
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-notify-0.7,
+         gir1.2-soup-2.4,
+         gir1.2-vte-2.91,
+         gvfs,
+         gvfs-backends,
+         libgtk-3-bin,
+         python3-apt,
+         python3-cairo,
+         python3-distro,
+         python3-matplotlib,
+         python3-netifaces,
+         python3-psutil,
+         python3-requests
+Recommends: shared-mime-info,
+            desktop-file-utils
+Description: Amarok Software Center
+ Add, remove, update applications

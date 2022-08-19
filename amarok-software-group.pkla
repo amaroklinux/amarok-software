@@ -1,0 +1,6 @@
+[Amarok Software]
+Identity=unix-group:amarok-software
+Action=org.amarok.pkexec.amarok-software-action;org.amarok.pkexec.amarok-software-sysaction
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes

@@ -1,0 +1,665 @@
+amarok-software (0.3.0-1amarok2) stable; urgency=medium
+
+  * New upstream version for Amarok Linux OS
+  * update
+
+ -- Amarok Linux <packages@amaroklinux.org>  Wed, 10 Aug 2022 13:47:42 -0300
+
+amarok-software (0.3.0-1amarok1) stable; urgency=medium
+
+  * New upstream version for Amarok Linux OS
+  * Brazilian portuguese translation added
+
+ -- Amarok Linux <packages@amaroklinux.org>  Tue, 09 Aug 2022 12:01:16 -0300
+
+amarok-software (0.3.0-1) stable; urgency=medium
+
+  * Rebuild for Amarok Linux OS
+
+ -- Amarok Linux <packages@amaroklinux.org>  Fri, 05 Aug 2022 23:26:21 -0300
+
+pardus-software (0.3.0) unstable; urgency=medium
+
+  [ Fatih Altun ]
+  * Add control for server app command package names
+  * Fix myapps listbox creating bug on some old systems
+  * Add authorization configuration to use repo and myapps sections
+  * Add animation controls for myapps stack
+  * Add pardus-software group and polkit for passwordless usage
+  * Update pkla actions as full name
+  * Add passwordless usage control button to settings
+  * Add another apt update way to exceptions
+  * Add show update button after fix sources and update info label ui
+  * Update group action error label, discard 32256
+  * Update pot file
+  * Update Turkish translations
+  * Add update-translations script
+  * Add justify center to dAptUpdateButton
+  * Add reset scroll position to comments
+
+  [ yakusha ]
+  * Correct question mark punctiation
+
+  [ Fatih Altun ]
+  * Update pardus-software.conf as interactive conf file
+  * Rm postrm script
+  * Add GLib.idle to set pardusappsdetail page
+  * Add row activated action to myapps listbox
+  * Add app command data control to myapps activated func
+  * Update rating ui to be more useful user experience
+  * Add activeapp control to rating
+  * Fix multiple widget create problem
+  * Update pot file
+  * Update Turkish translations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 20 Jul 2022 21:01:31 +0300
+
+pardus-software (0.2.0) unstable; urgency=medium
+
+  * Add extra desktop name controls to controlargs function
+  * Add missing lower method to search func
+  * Add search in repo apps too on controlargs func
+  * Fix repo apps searching controls in controlargs
+  * Fix if app not found value in controlargs
+  * Add control style_context on controlargs func
+  * Add package name tooltip to app name
+  * Add installed, required, freed size infos with required changes to pardus app detail
+  * Update file size units
+  * Fix typo
+  * Update pot file
+  * Update Turkish translations
+  * Fix show available apps config control
+  * Add thread for get package size and required changes info
+  * Update size and required changes info after action completed
+  * Add GLib_idle to size_worker_done func
+  * Update sleep time as 0.25
+  * Update size and required changes infos as empty before loaded
+  * Add subcategory combobox to pardus apps
+  * Add subcategory key control for old servers
+  * Add user's all desktop apps to myapps and Update myapps ui
+  * Add GB to get size method
+  * Add except for broken packages while marking
+  * Update to_install and to_remove controls
+  * Add details page for myapps' remove action
+  * Add action to myapps' open button
+  * Add localization to get installed_apps
+  * Add disclaimer to myapps' remove action for important package removings
+  * Add remove action to myapps and Fix get myapps queue icon
+  * Add control_myapps func for control myapps list after remove
+  * Add updatecache to myapp details page
+  * Add action to myapps' uninstall disclaimer accept button
+  * Fix sensitive control of myapps_uninstall_button
+  * Add status,error,cache control to control_myapps func
+  * Rm unnecessary code on myapplistbox remove
+  * Revert updatecache on myapp details page for better loading time
+  * Add remove option to application
+  * Add search ability for myapps too
+  * Fix typo
+  * Update myapps menu sensitive control on no connection
+  * Add menuback controls for myapps page
+  * Update get_installed_apps and parse_desktopfile funcs using Gio
+  * Update myapps' notfound page
+  * Update menu back controls
+  * Fix typo and Add sleep control to required_changes
+  * Fix typo
+  * Update pot file
+  * Update Turkish translations
+  * Update pardus app detail action button as buttonbox with info button
+  * Add dActionInfoButton sensitive controls
+  * Add required changes popover to daction info button
+  * Add key_press_event control for myapps page too
+  * Update RequiredChangesPopover ui
+  * Add row_activated action to queue listbox
+  * Fix set size labels on worker_done func
+  * Fix menuback sensitive control on pardus page click
+  * Add subcatcombo clear to most and last buttons on home
+  * Update pot file
+  * Update Turkish translations
+  * Add get important packages from server if available
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 09 Jun 2022 10:30:31 +0300
+
+pardus-software (0.1.1) unstable; urgency=medium
+
+  [ Hugo Carvalho ]
+  * Add Portuguese (pt) translation
+  * Add files via upload
+
+  [ Fatih Altun ]
+  * Add read more button to pardus apps description
+  * Add mo file create function as dynamically to setup.py
+  * Add gettext to Build-Depends
+  * Fix window overflow problem on small resolutions
+  * Add completed info label to queue box
+  * Update pot file
+  * Update Turkish translations
+  * Add rm apt lists to fix sources list func
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 25 Apr 2022 16:27:40 +0300
+
+pardus-software (0.1.0) unstable; urgency=medium
+
+  * Fix if homepage app not in Pardus apps
+  * Update copyright to 2022
+  * Update get_locale function for more accurate detection
+  * Add exception for handle notify errors
+  * Add libgtk-3-bin to Depends
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 28 Mar 2022 12:17:06 +0300
+
+pardus-software (0.1.0~beta30) unstable; urgency=medium
+
+  * Add controlServer func for handle Soup exceptions
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 10 Mar 2022 16:44:10 +0300
+
+pardus-software (0.1.0~beta29) unstable; urgency=medium
+
+  * Fix lastadded flowbox duplication problem
+  * Add load more button to pardus comments
+  * Add PardusComment.py to setup.py
+  * Reformat code
+  * Update some print lines
+  * Update pot file
+  * Update Turkish translations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 09 Mar 2022 01:18:46 +0300
+
+pardus-software (0.1.0~beta28) unstable; urgency=medium
+
+  * Update pot file
+  * Update Turkish translations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 04 Mar 2022 18:17:09 +0300
+
+pardus-software (0.1.0~beta27) unstable; urgency=medium
+
+  * Add lastadded apps to homepage and Update homepage ui
+  * Update FlowBox selection modes as none
+  * Update if condition on setPardusApps
+  * Add python3-cairo to depends
+  * Add python3-cairo to README.md
+  * Update project homepage
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 04 Mar 2022 15:51:54 +0300
+
+pardus-software (0.1.0~beta26) unstable; urgency=medium
+
+  * Fix file size typo
+  * Add downloading info to package install progress
+  * Fix keep aspect ratio problem on app screenshots
+  * Update fullscreen icon and popover size on state changed
+  * Add download and open on web buttons to app images popover
+  * Update hsize control value of appimage popover
+  * Update app image file save name
+  * Add tooltip to download image and open on web buttons
+  * Update translations
+  * Add cycle to next and back image buttons
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 23 Feb 2022 16:32:19 +0300
+
+pardus-software (0.1.0~beta25) unstable; urgency=medium
+
+  * Add gir1.2-vte-2.91 to Depends
+  * Add missing initial animation types
+  * Add screenshots
+  * Add README.md
+  * Create LICENSE
+  * Update README
+  * Fix search status on myapps
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 19 Jan 2022 14:48:36 +0300
+
+pardus-software (0.1.0~beta24) unstable; urgency=medium
+
+  * Add package manager controls, auto apt update function and Update apt cache controls
+  * Add apt control ui improvements to startup and settings page
+  * Update translations
+  * Fix print
+  * Add bullseye and buster sources list to known repos
+  * Add statistics page
+  * Update translations
+  * Add python3-matplotlib to Depends
+  * Update osdowns dict
+  * Fix button suggested classes on menu clicked
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Sat, 08 Jan 2022 16:12:45 +0300
+
+pardus-software (0.1.0~beta23) unstable; urgency=medium
+
+  * Add use dark theme switch to settings
+  * Add retry button for failed connection on startup
+  * Add init value for some vars
+  * Add click func to most downloaded and rated apps on homepage
+  * Add my apps button to menu
+  * Update translations
+  * Fix show installed apps control on my_apps
+  * Update ui spacing values
+  * Fix typo
+  * Update app sorting controls
+  * Add button widget to home category flowbox
+  * Add pardus-software css classes for radius and Rm unnecessary seperators
+  * Add justify center and word wrap to noserver label
+  * Update span font as span size
+  * Add enable back button on most app buttons clicked
+  * Improve back button
+  * Update translations
+  * Add back button usability on queue page too
+  * Update app icon
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 20 Dec 2021 19:51:39 +0300
+
+pardus-software (0.1.0~beta22) unstable; urgency=medium
+
+  * Add line_wrap_mode to comments
+  * Add badword filter for gnome comments
+  * Add odrs info label to gnome comments
+  * Fix typo
+  * Add show gnome comments switch to settings
+  * Use regex on badword search function for exact match
+  * Update translations
+  * Use clearBoxes func on switch state sets
+  * Add serverurl config
+  * Add strict as True to config parser
+  * Fix mostappname control on controlargs
+  * Add lang to print status code
+  * Update serverurl config method
+  * Update translations
+  * Update translations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 02 Dec 2021 16:03:45 +0300
+
+pardus-software (0.1.0~beta21) unstable; urgency=medium
+
+  * Update pardusapps description label margins
+  * Add gvfs-backends to Depends
+  * Add subcategories for external categories
+  * Update animation controls
+  * Update enable repo icon
+  * Update image loading spinner size and align
+  * Update prettyname splitting on PardusAppsDetail page
+  * Add view on web label to pardus apps detail page
+  * Update translations
+  * Update server url
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 22 Nov 2021 19:24:16 +0300
+
+pardus-software (0.1.0~beta20) unstable; urgency=medium
+
+  * Fix Turkish character problem on app sorting
+  * Update arg control app list as fullapplist
+  * Add gvfs to Depends
+  * Update suggestapp entry limits as 200
+  * Update pardus comment write entry lenghts
+  * Add word wrap to suggestapp textviews
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 11 Nov 2021 16:55:51 +0300
+
+pardus-software (0.1.0~beta19) unstable; urgency=medium
+
+  * Add single instance control
+  * Add licensePopover for show copyright text on license label clicked
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Tue, 09 Nov 2021 14:27:42 +0300
+
+pardus-software (0.1.0~beta18) unstable; urgency=medium
+
+  * Add icon selection to settings
+  * Update translations
+  * Add new tips for new icons to settings
+  * Update notify function
+  * Add rmtree for icons before extraction
+  * Update translations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 04 Nov 2021 14:59:30 +0300
+
+pardus-software (0.1.0~beta17) unstable; urgency=medium
+
+  * Fix visibility of AptUpdateBox for ui
+  * Update open application function with extra tryings
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Sun, 31 Oct 2021 23:13:57 +0300
+
+pardus-software (0.1.0~beta16) unstable; urgency=medium
+
+  * Fix wrong appname paramater on download request
+  * Add try update apt cache button for not found applications
+  * Add codename control for etap with major version
+  * Update translations
+  * Update debian/compat to 10
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Sun, 31 Oct 2021 01:48:43 +0300
+
+pardus-software (0.1.0~beta15) unstable; urgency=medium
+
+  * Fix star and description location on write pardus comment
+  * Add version control func, show notify if new version is available for pardus-software
+  * Rm unused list
+  * Rm redundant function call
+  * Update server app and icon request as async Gio
+  * Add distro and appversion to ratings and downloads
+  * Update translations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 29 Oct 2021 19:41:06 +0300
+
+pardus-software (0.1.0~beta14) unstable; urgency=medium
+
+  * Update default app sorting as prettyname
+  * Add Turkish and English tabs for Gnome Comments with Load More Comments button
+  * Fix min-height of GnomeComments
+  * Update package removal method as package list
+  * Add clear pardus rates on pardus apps details every time clicked
+  * Add control ActiveAppOnUI for app details getted from server
+  * Update translations and Turkish translations
+  * Fix PardusAppListStore clearing bug on sortPardusAppsCombo
+  * Add comments notebook view reset to pardusapps detail
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 21 Oct 2021 18:23:32 +0300
+
+pardus-software (0.1.0~beta13) unstable; urgency=medium
+
+  * Fix fromexternal control for active app
+  * Update comment sorting as date by default
+  * Update action button icons as symbolic
+  * Add translator to about dialog
+  * Update queue delete icon
+  * Fix actioned app button icon
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 04 Oct 2021 19:09:51 +0300
+
+pardus-software (0.1.0~beta12) unstable; urgency=medium
+
+  * Add external repo apps property
+  * Add correct sources.list and Add new StartSysProcess func for sys commands
+  * Update translations
+  * Add SysActions.py to setup.py
+  * Add SysActions to polkit
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Sat, 02 Oct 2021 12:59:07 +0300
+
+pardus-software (0.1.0~beta11) unstable; urgency=medium
+
+  * Add available apps control to settings and Update some funcs with settings ui
+  * Add python3-distro to Depends
+  * Update translations
+  * Fix icon switch state control
+  * Add GLib.idle to controlAvailableApps
+  * Add sort by rate and sort by last added to pardusapps
+  * Add key-press-event to pardushome and pardusapps for enabling search
+  * Update translations
+  * Update status control of pardus app details,images and Add spinner page for loading images
+  * Add extra md5 control for icons
+  * Update image animations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 17 Sep 2021 19:35:06 +0300
+
+pardus-software (0.1.0~beta10) unstable; urgency=medium
+
+  * Update tar extraction control
+  * Update notification app name as prettyname
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 09 Sep 2021 08:30:40 +0300
+
+pardus-software (0.1.0~beta9) unstable; urgency=medium
+
+  * Update serverurl protocol as https
+  * Fix tar extraction security bug
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 08 Sep 2021 18:22:46 +0300
+
+pardus-software (0.1.0~beta8) unstable; urgency=medium
+
+  * Add action button and status text to queue listbox
+  * Update QueueListBox ui and Add status control
+  * Update ratings ui on PardusAppsDetail page
+  * Update suggestapp web label max-length as 100
+  * Update translations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 06 Sep 2021 18:59:18 +0300
+
+pardus-software (0.1.0~beta7) unstable; urgency=medium
+
+  * Fix get app name from pardusapp file
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 02 Sep 2021 15:13:37 +0300
+
+pardus-software (0.1.0~beta6) unstable; urgency=medium
+
+  * Fix about page icon
+  * Add do_command_line to Application
+  * Update controlArgs func for check desktop file name too
+  * Fix args
+  * Update detail parameter as details
+  * Update controlArgs for opening details from file too
+  * Add mimetype and Update controlArgs
+  * Fix mostappname and detailsappname controls
+  * Fix typo
+  * Add Glib.idle to controlargs
+  * Update Architecture as all
+  * Add controlIcons function
+  * Fix wrap mode of license and version on pardusappsdetail page
+  * Update translations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 01 Sep 2021 17:59:31 +0300
+
+pardus-software (0.1.0~beta5) unstable; urgency=medium
+
+  * Update install pardus package as list and Disable icon control on suggestapp
+  * Update back icon
+  * Add image carousel to Pardus Apps detail images
+  * Add disclaimer button to pardus apps detail page
+  * Add eventbox to pardus apps detail stars
+  * Fix dynamically app image resizing problem
+  * Add rating hover icons
+  * Add actions to rating eventbox and Update comment funcs
+  * Fix scroll problem on pardusappsdetail page
+  * Add installed control for rating
+  * Add exit-fullscreen ability also to imagepopover fullscreen button
+  * Update component as package origins
+  * Disable some print funcs
+  * Add rating hover icons to setup.py
+  * Update translations
+  * Update icon
+  * Update icon on setup.py
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 20 Aug 2021 03:05:57 +0300
+
+pardus-software (0.1.0~beta4) unstable; urgency=medium
+
+  * Use Popover on HeaderBar menu
+  * Add sort by download checkbox to pardus apps
+  * Add Suggest App page
+  * Add resetSuggest func, Suggest Stack and Fix scroll positions
+  * Add installed control for download count
+  * Fix category values in suggestApp
+  * Add combobox for sorting pardus apps
+  * Update translations
+  * Update comment response control
+  * Fix popover image relative-to value
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Sun, 08 Aug 2021 14:12:54 +0300
+
+pardus-software (0.1.0~beta3) unstable; urgency=medium
+
+  * Add Updates page
+  * Add open button to pardus apps detail page
+  * Add len control for prettyname on pardus app detail
+  * Add python3-requests to depends
+  * Update button labels on update pages
+  * Fix mostapps icon's symbolic views
+  * Add tooltip to update page buttons
+  * Update translations
+  * Add info label to update page for show if apt is busy
+  * Update translations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 02 Aug 2021 19:28:48 +0300
+
+pardus-software (0.1.0~beta2) unstable; urgency=medium
+
+  * Add max prettyname len control to most apps
+  * Add most apps to controlView
+  * Fix status button label of actioned app with active app on ui
+  * Add control for fromrepoapps
+  * Update aboutdialog prefs and Add enter key action to reposearch
+  * Add control for repo apps status tick and actions
+  * Update HomeGrid
+  * Fix control of repo apps status
+  * Update UI: Mv Pardus, Repo icons to headerbar and Add revealer to action bar
+  * Update top buttons default sensitive
+  * Update some margins on ui
+  * Update some names and margins on ui
+  * Add show search button automatically on repo clicked and Fix search controls
+  * Add apt lock control
+  * Update Package funcs
+  * Update bottomrevealer ui for better showing of errors
+  * Update translations
+  * Fix Turkish translation typo
+  * Update remove command
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 08 Jul 2021 15:11:41 +0300
+
+pardus-software (0.1.0~beta1) unstable; urgency=medium
+
+  * Update ratings scrollview min-height value
+  * Update ratings scrollview
+  * Update TransitionTypes
+  * Disable getDisplay func
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 02 Jul 2021 19:32:47 +0300
+
+pardus-software (0.1.0~alpha4) unstable; urgency=medium
+
+  * Add most rated and most downloaded apps to homepage
+  * Add line_wrap to mostapps
+  * Update thread use GLib.idle_add func
+  * Update mostapps and splash ui
+  * Update splash page ui
+  * Update main, GnomeRating thread funcs and Update ui, disable css
+  * Update translations
+  * Update setup.py
+  * Update translations
+  * Fix typo
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 24 Jun 2021 18:46:18 +0300
+
+pardus-software (0.1.0~alpha3) unstable; urgency=medium
+
+  * Update headerbarmenu default sensitive and Fix menu id names
+  * Fix not found apps details
+  * Fix typo
+  * Update translations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Sun, 20 Jun 2021 11:23:27 +0300
+
+pardus-software (0.1.0~alpha2) unstable; urgency=medium
+
+  * Fix wrong app notify
+  * Update send Rate and Download as async
+  * Update default values on pardusappdetails ui
+  * Add src/AppRequest.py to setup.py
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Sat, 05 Jun 2021 23:44:17 +0300
+
+pardus-software (0.1.0~alpha1) unstable; urgency=medium
+
+  * Update serverurl
+  * Update translations
+  * Fix connection and dpkg error on action
+  * Update translations
+  * Update menu items
+  * Add files for packaging
+  * Add sendDownload function
+  * Update translations
+  * Update translations
+  * Add localization
+  * Add sendrate functions
+  * Update name as pardus-software
+  * Add action function to repoapps
+  * Update default width and icon
+  * Add locale for get metadatas from server
+  * Update about dialog and Add queue page
+  * Add app icon
+  * Add about menu button
+  * Add clear cache to prefs and Fix some error on prefs ui
+  * Update default config
+  * Add setAnimations and Update preferences ui
+  * Fix editorapp icons
+  * Update editor apps as dynamic
+  * Add write pardus comment template
+  * Add gnome comments as dynamic
+  * Update pardus comments as dynamic
+  * Add comments template
+  * Update preferences ui
+  * Improve pardusapps search func with pname and desc
+  * Add task queue for pardus apps
+  * Update PardusHomeGrid as Box
+  * Add editorapps as static and merge selection_changed funcs with pardusapps
+  * Add writeConfig func for systemicons
+  * Add preferences dialog
+  * Update AppImage func
+  * Add top search button with revealer
+  * Add wordwrap to dLicense label
+  * Add installed check button for PardusApps
+  * Add setGnomeRatings
+  * Add setPardusRatings
+  * Add rating stats ui to Pardus Apps Detail
+  * Add resizing for pop images
+  * Add type, category, license, codename, web, mail to Pardus Apps detail page
+  * Add size, version, component to Pardus Apps detail page
+  * Fix description func
+  * Add rating, download.. to PardusAppsDetail ui
+  * Add star on/off icons
+  * Add usesystemicons control for app and cat icons
+  * Add UserSettings
+  * Update serversettings file name
+  * Add getDefaultSettings and Update some funcs
+  * Add style.css and Update homecategory style
+  * Update server address as localhost
+  * Add show all description switch button and update detail ui
+  * Add getMac func
+  * Add details view to PardusAppsDetail ui with expander
+  * Add AppDetail class
+  * Update PardusAppsDetail ui
+  * Uncomment missingdeps
+  * Fix if package is not in cache and Add get description from server
+  * Added: get app images async from server
+  * Update applist as sorted by name
+  * Add Navigation Bar to PardusAppsBox
+  * Update get server categories and number-name func
+  * Add: try to get app and category icons from server
+  * get apps and categories from server
+  * Update homestack page names
+  * Update server connection function
+  * Disable reorderable on iconview
+  * Disable showing all apps and categories in RepoApps, use only search anymore
+  * Add israw parameter to description function
+  * Add set_sort_column_id to RepoAppsTreeView columns
+  * Add package summary to RepoAppsTreeView
+  * Add CellRendererButton and Update RepoAppListStore
+  * Add selection_changed for EditorAppsIconView
+  * Disable appending all apps to RepoAppListStore
+  * Fix get cache apps in for loop
+  * Add row_activated function for Repo Apps
+  * Add GtkPaned for Repo Apps
+  * Add get package description from apt library
+  * Update get section from apt library as using candidate and versions
+  * Update icon exceptions with adding image-missing icon
+  * Disable unused RepoCategoryFilterFunction
+  * Add search button for repo apps and Update search filter func
+  * Add dict for Repo Apps
+  * Remove residual progressbar codes
+  * Remove unnecessary code blocks
+  * Add Repo apps, categories, search bar to Repo stack
+  * Add RepoCategories
+  * Add action for EditorAppsIconView
+  * Update open menu icon name
+  * Add top progress text and spinner actions
+  * Add Header Menu with ImageMenuItem and back button
+  * Update searchbar and home category icon size
+  * Add PardusAppsIconView detail page
+  * Add EditorAppsIconView
+  * Add PardusAppsIconView and Pardus searchbar
+  * Add homepage stack template
+  * Initial commit
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Sat, 05 Jun 2021 05:14:35 +0300
